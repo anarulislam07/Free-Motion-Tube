@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonPage"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/top_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/baner_image"
+            android:scaleType="fitXY"
+
+
+
+
+            />
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bAdd"
+        android:layout_below="@id/top_image"
+        android:layout_marginBottom="15dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="7dp"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/free_m_icon"
+                                android:scaleType="fitXY"
+                                />
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="Free Motion"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                //===============================
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="19dp"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url8"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview8"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie8"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+
+                            >
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:id="@+id/lott"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:scaleType="centerCrop"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true"
+                                app:lottie_rawRes="@raw/mlw_bd" />
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="Dawonload Movie"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text="MLWBD.COM"
+                                    android:textColor="#000000"
+                                    android:textSize="11sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                //===============================
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview2"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+
+                            >
+
+                            //// lotie ///
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/support_h_logo"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="Support Humanity"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                //===============================
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url3"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview3"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+
+                            >
+
+                            //// lotie ///
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/human"
+                                android:layout_marginTop="5dp"
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="We Are Human"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            //===============================
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url4"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview4"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie4"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+
+                            >
+
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/unlimited_funny"
+                                android:paddingTop="5dp"
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="Most View Funny"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                //===============================
+
+
+            </LinearLayout>
+
+
+            ///////////////////////////////////
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url5"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview5"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie5"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/shorts_logos" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="Shorts Video"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            //===============================
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url6"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview6"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie6"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/funny_icon"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="Funny Video"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url7"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview7"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie7"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/monkey"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="Funny কাইশ্যা"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url9"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview9"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie9"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+
+                            >
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/entertaiment"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="বিনোদন Video"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                //===============================
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/web_url10"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/update_webview10"
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/three_color_curved"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/up_lottie10"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal"
+
+                            >
+
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/maya_jal"
+                                android:paddingTop="5dp"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:paddingHorizontal="3dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="3dp"
+                                android:text="মায়া জাল"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="80dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/two_color_curved"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="20dp"
+                                    android:text=" New Video"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                //===============================
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <!-- Banner ad  -->
+
+    <LinearLayout
+        android:id="@+id/bAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        >
+
+
+
+
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-9443277100616934/3032821785">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+    <!-- **************************************************** -->
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Free Motion Tube</string>
+
+    <!-- Admob AD ON or OFF -->
+    <string name="show_admob_ad">ON</string>
+
+    <!-- Device ID  setTestDeviceIds (search on logcat for device id) -->
+    <string name="device_id">ABCD</string>
+
+    <!-- Admob APP ID HERE -->
+    <string name="admob_APP_ID">ca-app-pub-9443277100616934~8189215049</string>
+    <!-- Admob Ad Unit IDS Here -->
+    <string name="admob_INTERSTITIAL_UNIT_ID">ca-app-pub-9443277100616934/8883365529</string>
+    <string name="admob_BANNER_UNIT_ID">ca-app-pub-9443277100616934/3032821785</string>
+
+</resources>
